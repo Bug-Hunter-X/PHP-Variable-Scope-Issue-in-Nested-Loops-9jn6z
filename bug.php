@@ -1,0 +1,1 @@
+This code suffers from a common PHP gotcha related to how it handles variable assignments within loops and conditional statements.  The problem lies in the way `$total` is handled in relation to the `if` condition.
