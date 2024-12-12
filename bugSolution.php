@@ -1,0 +1,1 @@
+The corrected version ensures that `$total` is only declared outside the loop. This way, the value of `$total` is preserved across iterations and properly accumulates the sum.  We also use a more explicit initialization with `0`. The `if` condition itself remains unchanged as the logic within is already correct.
